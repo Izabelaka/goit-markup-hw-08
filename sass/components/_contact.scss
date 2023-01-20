@@ -1,0 +1,35 @@
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: auto;
+
+    &__link {
+            color: $brand-color-grey;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        &__link:hover {
+            color: $brand-color-blue;
+        }
+        &__link:focus {
+            color: $brand-color-blue;
+        }
+        &__link-icon {
+            margin-right: 10px;
+            fill: currentColor;
+        }
+
+        // &__link-icon:hover {
+        //     /* fill:var(--brand-color-blue); */
+        // }
+
+        // &__link-icon:focus: {
+        //     /* fill:var(--brand-color-blue); */
+        // }
+}
