@@ -61,6 +61,12 @@ address {
 .photo-list {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
+}
+@media (min-width: $desktop-size) {
+    .photo-list{
+        flex-wrap: nowrap;
+    }
 }
 .header {
     border-bottom: 1px solid var(--brand-header-border);
