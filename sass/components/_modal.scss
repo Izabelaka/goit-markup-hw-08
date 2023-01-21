@@ -1,4 +1,5 @@
-.backdrop {
+@media screen and (min-width: 1200px) {
+    .backdrop {
     position: fixed;
     left: 0;
     top: 0;
@@ -208,4 +209,5 @@
         &__input:checked:disabled+.check__box {
             background-color: #9B9B9B;
         }
+}
 }

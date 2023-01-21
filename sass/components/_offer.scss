@@ -1,4 +1,5 @@
-.offer {
+@media screen and (min-width: 1200px) {
+    .offer {
     text-align: center;
 
     &__item {
@@ -23,4 +24,5 @@
             justify-content: center;
             align-items: center;
         }
+}
 }

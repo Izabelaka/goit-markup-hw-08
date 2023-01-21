@@ -1,3 +1,4 @@
+@media screen and (min-width: 1200px){
 .clients {
     display: flex;
     align-items: center;
@@ -27,4 +28,5 @@
         &__icon {
             fill: currentColor;
         }
+}
 }

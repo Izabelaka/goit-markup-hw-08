@@ -1,4 +1,5 @@
-.scheme {
+@media screen and (min-width: 1200px) {
+    .scheme {
     display: block;
     border-radius: 0px 0px 4px 4px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -62,4 +63,5 @@
             letter-spacing: 0.03em;
         }
 
+}
 }

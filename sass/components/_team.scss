@@ -1,4 +1,5 @@
-.team {
+@media screen and (min-width: 1200px) {
+    .team {
     background-color: $brand-background-team;
 
     &__card {
@@ -54,4 +55,5 @@
         &-icon {
             fill: currentColor;
         }
+}
 }

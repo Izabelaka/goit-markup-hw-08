@@ -1,4 +1,5 @@
-.contact {
+@media screen and (min-width: 1200px) {
+    .contact {
     display: flex;
     align-items: center;
     gap: 50px;
@@ -32,4 +33,5 @@
         // &__link-icon:focus: {
         //     /* fill:var(--brand-color-blue); */
         // }
+}
 }
