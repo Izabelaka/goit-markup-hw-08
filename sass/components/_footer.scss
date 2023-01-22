@@ -44,9 +44,6 @@
             color: $brand-color-white;
         }
 
-        &-division {
-            margin-left: auto;
-        }
 
         &-division__title {
             font-style: normal;
@@ -55,6 +52,7 @@
             line-height: 1.14;
             letter-spacing: 0.03em;
             margin-bottom: 20px;
+            margin-top: 60px;
         }
 
         &__socials-list {
@@ -145,17 +143,27 @@
             gap: 24px;
         }
     }
+
+
+
+
+
+
+
+
+
+
+    
     @media screen and (min-width: 1200px) {
     .footer-section {
             align-items: baseline;
             flex-direction: row;
-                text-align: left;
+            text-align: left;
         }
     .footer__newsletter {
         flex-direction: row;
     }
     .footer__newsletter-input{
-        
         display: flex;        
         width: 358px;
      
@@ -163,7 +171,7 @@
 
 
 
-    
+
         .footer {
     padding-top: 60px;
     padding-bottom: 60px;

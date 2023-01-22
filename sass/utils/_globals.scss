@@ -63,7 +63,7 @@ address {
     gap: 30px;
     flex-wrap: wrap;
 }
-@media (min-width: $desktop-size) {
+@media (min-width: 1200px) {
     .photo-list{
         flex-wrap: nowrap;
     }
