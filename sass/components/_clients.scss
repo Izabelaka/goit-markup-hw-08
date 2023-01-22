@@ -5,12 +5,14 @@
     gap: 30px;
     list-style: none;
     cursor: pointer;
+    flex-wrap: wrap;
 
     &__link {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 170px;
+        // width: 170px;
+        width:210px;
         height: 92px;
         border: 1px solid currentColor;
         border-radius: 4px;
@@ -32,12 +34,15 @@
 }
 @media screen and (min-width: 1200px){
 .clients {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    list-style: none;
-    cursor: pointer;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // gap: 30px;
+    // list-style: none;
+    // cursor: pointer;
+    flex-wrap: nowrap;
+
+    
 
     &__link {
             display: flex;
