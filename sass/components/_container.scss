@@ -6,6 +6,8 @@
         &__header {
             display: flex;
             align-items: center;
+            // dodane
+            height:60px;
         }
     }
 
@@ -15,9 +17,14 @@
         }
     }
         @media screen and (min-width: 768px) {
-            .container {        width: 768px;
-                }
+            .container {        
+                width: 768px;
             }
+            .container__header{
+                height: 80px;
+            }    
+                }
+            
         @media screen and (min-width: 1200px) {
         .container {
     width: 1200px;
