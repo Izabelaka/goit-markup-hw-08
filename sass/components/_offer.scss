@@ -1,5 +1,6 @@
     .offer {
         text-align: center;
+        display: none;
 
         &__item {
             display: inline-block;
@@ -29,6 +30,7 @@
     @media screen and (min-width: 1200px) {
     .offer {
     text-align: center;
+    display:block;
 
     &__item {
             display: inline-block;
