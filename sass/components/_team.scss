@@ -7,6 +7,11 @@
             border-radius: 0px 0px 4px 4px;
             text-align: center;
         }
+        &__cards{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
 
         &__card-padding {
             padding-top: 30px;
