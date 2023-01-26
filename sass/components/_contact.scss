@@ -37,6 +37,24 @@
         //     /* fill:var(--brand-color-blue); */
         // }
     }
+
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .contact{
+        display:flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    .nav__list{
+        margin-left: 73px;
+    }
+    .nav{
+        gap:40px;
+    }
+    }
+
+
     @media screen and (min-width: 1200px) {
     .contact {
     display: flex;
